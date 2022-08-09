@@ -1,0 +1,52 @@
+body {
+
+  color: #e3ddf3;
+}
+.jumbotron {
+  background-image: url("/static/images/nasa.jpg");
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.button {
+  background-color: rgb(27, 0, 39);
+  color: rgb(222, 222, 222);
+  border-radius:10px;
+  padding:15px;
+  border: none;
+}
+
+.table {
+  border: 1px solid #23033d;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+.table  td, .table th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+.table tbody td {
+  color: #010002;
+  font-size: 13px;
+}
+.table tr:nth-child(even) {
+  background: #fcfeff;
+}
+.table thead {
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #3b3b3d 0%, #0f0a14 66%, #000000 100%);
+  background: -webkit-linear-gradient(top, #3b3b3d 0%, #0f0a14 66%, #000000 100%);
+  background: linear-gradient(to bottom, #3b3b3d 0%, #0f0a14  66%, #000000 100%%);
+  border-bottom: 2px solid #444444;
+}
+.table thead th {
+  font-size: 15px;
+  font-weight: 200;
+  color: #FFFFFF;
+
+}
+.table thead th:first-child {
+  border-left: none;
+}
